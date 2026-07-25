@@ -16,6 +16,7 @@ tags: [xv6, riscv, os, kernel]
 | [usys.pl 系统调用桩生成](usys-pl.md) | 脚本用途、汇编桩原理、系统调用完整链路 |
 | [Virtio 磁盘驱动与中断](virtio-disk.md) | Virtio 协议、Virtqueue、PLIC、完整中断路径 |
 | [内核启动与底层细节问答](startup-and-lowlevel.md) | 链接脚本、medany、push_off 设计、启动委托、多核 fence 等 12 个问答 |
+| [Sv39 页表深入、内存映射与缺页处理](sv39-page-table-internals.md) | PTE 字段、叶子/大页、PLIC 64MB 映射过程、内核栈与 guard page、缺页处理 |
 
 ## 源码位置
 
