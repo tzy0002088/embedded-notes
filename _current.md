@@ -26,3 +26,4 @@
 | 2026-07-02 | sensor-emulation.md | qemu |
 | 2026-07-02 | boot-flow.md | riscv |
 | 2026-08-15 | mmio, write-handshake, sw-to-bus, fmc-sdram, bus-protocols, bus-masters, glossary | soc-bus |
+| 2026-08-16 | usb-dma-path | soc-bus |

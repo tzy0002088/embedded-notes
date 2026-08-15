@@ -13,3 +13,4 @@ SoC/MCU 内部总线互连、MMIO、外设交互、总线协议等硬件底层�
 | 2026-08-15 | [bus-protocols.md](./bus-protocols.md) | notes | 协议桥:core 内部方言如何翻译成 AXI/AHB/APB 事务 |
 | 2026-08-15 | [bus-masters.md](./bus-masters.md) | notes | DMA master 与多 master 世界:双端口 IP、仲裁、一致性根源 |
 | 2026-08-15 | [glossary.md](./glossary.md) | notes | 术语表:core/AMBA/RISC-V/Cortex-M/存储外设 |
+| 2026-08-16 | [usb-dma-path.md](./usb-dma-path.md) | notes | USB DMA 从 DDR 搬数据到内部 FIFO 的完整路径(7 阶段) |
