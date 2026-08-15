@@ -10,6 +10,7 @@
 | ⤷ QEMU 内存模型 | [qemu-memory/](./qemu-memory/_index.md) | 0 | MemoryRegion、AddressSpace、IOMMU |
 | RISC-V | [riscv/](./riscv/_index.md) | 1 | RISC-V 架构与实现 |
 | xv6-riscv | [xv6-riscv/](./xv6-riscv/_index.md) | 3 | xv6 操作系统内核分析 |
+| SoC/MCU 总线 | [soc-bus/](./soc-bus/_index.md) | 7 | 总线互连、MMIO、写事务、store 数据通路、协议桥、DMA master |
 
 > 新增方向时：新建子目录 → 创建 `_index.md` → 在上表加一行。
 

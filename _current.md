@@ -8,10 +8,7 @@
 - 已读完理论部分（QOM、MemoryRegion、SysBus、spike.c 逐行分析）
 - **下一步：动手实践**，从零构建一个最小 RISC-V 机器，逐步加功能
 - 环境就绪：QEMU build/ 已有 ninja，交叉编译器 riscv64-unknown-elf-gcc 可用
-
-## 待解答的问题
-
-- 实战第一步：编译 QEMU → 写最小 bare metal 程序 → 跑通 spike → 创建自己的 machine
+- **同时开始学习 SoC/MCU 内部总线级基础知识**：MMIO 机制、总线互连、写事务握手已沉淀到 [soc-bus/](./soc-bus/_index.md)
 
 ## 待解答的问题
 
@@ -28,3 +25,4 @@
 | 2026-07-08 | build-compile.md | qemu |
 | 2026-07-02 | sensor-emulation.md | qemu |
 | 2026-07-02 | boot-flow.md | riscv |
+| 2026-08-15 | mmio, write-handshake, sw-to-bus, fmc-sdram, bus-protocols, bus-masters, glossary | soc-bus |
