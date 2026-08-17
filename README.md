@@ -12,6 +12,7 @@
 | xv6-riscv | [xv6-riscv/](./xv6-riscv/_index.md) | 3 | xv6 操作系统内核分析 |
 | SoC/MCU 总线 | [soc-bus/](./soc-bus/_index.md) | 8 | 总线互连、MMIO、写事务、store 数据通路、协议桥、DMA、USB DMA 实例 |
 | Linux 内核 | [linux-kernel/](./linux-kernel/_index.md) | 1 | 中断、softirq、threaded IRQ、USB gadget 驱动实例 |
+| DWC3 等时传输 | [dwc3-isoc/](./dwc3-isoc/_index.md) | 3 | USB 控制器等时传输：硬件机制、事件/中断体系、驱动策略（Zephyr UAC2 驱动背景） |
 
 > 新增方向时：新建子目录 → 创建 `_index.md` → 在上表加一行。
 

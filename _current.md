@@ -10,6 +10,7 @@
 - 环境就绪：QEMU build/ 已有 ninja，交叉编译器 riscv64-unknown-elf-gcc 可用
 - **同时开始学习 SoC/MCU 内部总线级基础知识**：MMIO 机制、总线互连、写事务握手已沉淀到 [soc-bus/](./soc-bus/_index.md)
 - **开始看 Linux 内核中断/softirq**：从 DWC3 gadget 驱动的 `local_bh_disable()` 切入，已沉淀到 [linux-kernel/](./linux-kernel/_index.md)
+- **Zephyr DWC3 等时传输驱动（UAC2）**：硬件机制、事件/中断体系与 Linux 驱动策略已沉淀到 [dwc3-isoc/](./dwc3-isoc/_index.md)，驱动代码在 `/home/tzy/work/ls_zephyr/zephyr/drivers/usb/udc/udc_dwc3.c`
 
 ## 待解答的问题
 
@@ -29,3 +30,4 @@
 | 2026-08-15 | mmio, write-handshake, sw-to-bus, fmc-sdram, bus-protocols, bus-masters, glossary | soc-bus |
 | 2026-08-16 | usb-dma-path | soc-bus |
 | 2026-08-17 | dwc3-threaded-irq-softirq | linux-kernel |
+| 2026-08-16 | hardware-model, events-interrupts, driver-strategy | dwc3-isoc |
