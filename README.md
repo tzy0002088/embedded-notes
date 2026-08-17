@@ -1,6 +1,6 @@
 # embedded-notes
 
-嵌入式学习笔记：QEMU 建模、RISC-V、xv6 内核、SoC/MCU 总线。学习过程中产生的提问、理解和笔记，按方向分目录沉淀。
+嵌入式学习笔记：QEMU 建模、RISC-V、xv6 内核、SoC/MCU 总线、Linux 内核。学习过程中产生的提问、理解和笔记，按方向分目录沉淀。
 
 ## 目录
 
@@ -11,6 +11,7 @@
 | RISC-V | [riscv/](./riscv/_index.md) | 1 | RISC-V 架构与实现 |
 | xv6-riscv | [xv6-riscv/](./xv6-riscv/_index.md) | 3 | xv6 操作系统内核分析 |
 | SoC/MCU 总线 | [soc-bus/](./soc-bus/_index.md) | 8 | 总线互连、MMIO、写事务、store 数据通路、协议桥、DMA、USB DMA 实例 |
+| Linux 内核 | [linux-kernel/](./linux-kernel/_index.md) | 1 | 中断、softirq、threaded IRQ、USB gadget 驱动实例 |
 
 > 新增方向时：新建子目录 → 创建 `_index.md` → 在上表加一行。
 

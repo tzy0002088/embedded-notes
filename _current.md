@@ -9,6 +9,7 @@
 - **下一步：动手实践**，从零构建一个最小 RISC-V 机器，逐步加功能
 - 环境就绪：QEMU build/ 已有 ninja，交叉编译器 riscv64-unknown-elf-gcc 可用
 - **同时开始学习 SoC/MCU 内部总线级基础知识**：MMIO 机制、总线互连、写事务握手已沉淀到 [soc-bus/](./soc-bus/_index.md)
+- **开始看 Linux 内核中断/softirq**：从 DWC3 gadget 驱动的 `local_bh_disable()` 切入，已沉淀到 [linux-kernel/](./linux-kernel/_index.md)
 
 ## 待解答的问题
 
@@ -27,3 +28,4 @@
 | 2026-07-02 | boot-flow.md | riscv |
 | 2026-08-15 | mmio, write-handshake, sw-to-bus, fmc-sdram, bus-protocols, bus-masters, glossary | soc-bus |
 | 2026-08-16 | usb-dma-path | soc-bus |
+| 2026-08-17 | dwc3-threaded-irq-softirq | linux-kernel |
