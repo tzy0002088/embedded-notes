@@ -9,7 +9,7 @@
 | QEMU | [qemu/](./qemu/_index.md) | 4 | QEMU 整体架构与核心子系统 |
 | ⤷ QEMU 内存模型 | [qemu-memory/](./qemu-memory/_index.md) | 0 | MemoryRegion、AddressSpace、IOMMU |
 | RISC-V | [riscv/](./riscv/_index.md) | 1 | RISC-V 架构与实现 |
-| xv6-riscv | [xv6-riscv/](./xv6-riscv/_index.md) | 3 | xv6 操作系统内核分析 |
+| xv6-riscv | [xv6-riscv/](./xv6-riscv/_index.md) | 5 | xv6 操作系统内核分析 |
 | SoC/MCU 总线 | [soc-bus/](./soc-bus/_index.md) | 8 | 总线互连、MMIO、写事务、store 数据通路、协议桥、DMA、USB DMA 实例 |
 | Linux 内核 | [linux-kernel/](./linux-kernel/_index.md) | 1 | 中断、softirq、threaded IRQ、USB gadget 驱动实例 |
 | DWC3 等时传输 | [dwc3-isoc/](./dwc3-isoc/_index.md) | 3 | USB 控制器等时传输：硬件机制、事件/中断体系、驱动策略（Zephyr UAC2 驱动背景） |

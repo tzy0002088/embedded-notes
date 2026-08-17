@@ -18,6 +18,8 @@ tags: [xv6, riscv, os, kernel]
 | [内核启动与底层细节问答](startup-and-lowlevel.md) | 链接脚本、medany、push_off 设计、启动委托、多核 fence 等 12 个问答 |
 | [Sv39 页表深入、内存映射与缺页处理](sv39-page-table-internals.md) | PTE 字段、叶子/大页、PLIC 64MB 映射过程、内核栈与 guard page、缺页处理 |
 | [Trap 处理架构与内存屏障](trap-and-fence.md) | uservec/kerneltrap、stvec 切换、TRAMPOLINE 映射设计、per-process 页表、sfence.vma、store buffer、fence 语义 |
+| [copyin 逐页拷贝](copyin-page-boundary.md) | copyin 中页边界计算、跨页拷贝流程、数字举例 |
+| [交互问答 2026-08-18](interactive-qa-2026-08-18.md) | 系统调用桩、UART 中断、usertrap 映射与关中断、copyin 逐页拷贝 |
 
 ## 源码位置
 
